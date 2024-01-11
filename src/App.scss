@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;;
 }
+
+.content-wrapper {
+    box-sizing: border-box;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    background: white;
+}

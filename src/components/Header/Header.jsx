@@ -2,8 +2,8 @@ import React, { useContext, useState } from 'react';
 import bemCssModules from 'bem-css-modules';
 import { default as HeaderStyles } from './Header.module.scss'
 
-import { StoreContext } from '../store/StoreProvider';
-import LoginForm from './LoginForm/LoginForm';
+import { StoreContext } from '../../store/StoreProvider';
+import LoginForm from '../LoginForm/LoginForm';
 
 const style = bemCssModules(HeaderStyles)
 
